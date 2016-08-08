@@ -300,7 +300,7 @@ public:
         start->setText(QApplication::translate("Type_It", "START", 0, 0));
         logo->setText(QString());
         giveUp->setText(QApplication::translate("Type_It", "STOP", 0, 0));
-        getRandom->setText(QApplication::translate("Type_It", "Random", 0, 0));
+        getRandom->setText(QApplication::translate("Type_It", "Default", 0, 0));
         upload->setText(QApplication::translate("Type_It", "Upload", 0, 0));
     } // retranslateUi
 

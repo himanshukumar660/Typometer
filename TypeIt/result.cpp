@@ -26,3 +26,8 @@ void Result::on_pushButton_3_clicked()
 {
     qApp->quit();
 }
+
+void Result::on_pushButton_clicked()
+{
+
+}
