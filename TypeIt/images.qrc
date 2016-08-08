@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>CSS-Background-Images-1-Red-and-Yellow.jpg</file>
+        <file>light.jpg</file>
+        <file>logo.png</file>
+        <file>imageedit_3_3506583437.jpg</file>
+        <file>sample.txt</file>
+        <file>imageedit_4_5424026280.png</file>
+        <file>start-icon.png</file>
+        <file>stop-icon.png</file>
+        <file>imageedit_4_4169169761.png</file>
+        <file>imageedit_1_8076061353.png</file>
+    </qresource>
+</RCC>
