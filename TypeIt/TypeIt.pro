@@ -11,4 +11,4 @@ QT += widgets
 HEADERS += about_me.h result.h type_it.h
 FORMS += about_me.ui result.ui type_it.ui
 SOURCES += about_me.cpp main.cpp result.cpp type_it.cpp
-RESOURCES += images.qrc
+RESOURCES += res/res.qrc
