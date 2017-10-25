@@ -47,12 +47,15 @@
    <enum>Qt::LeftToRight</enum>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">background-image:url(://CSS-Background-Images-1-Red-and-Yellow.jpg)</string>
   </property>
   <property name="dockOptions">
    <set>QMainWindow::AllowNestedDocks|QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks|QMainWindow::ForceTabbedDocks</set>
   </property>
   <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">background-image:url(://CSS-Background-Images-1-Red-and-Yellow.jpg)</string>
+   </property>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
