@@ -3,7 +3,7 @@ Test your typing speed with this simple application
 
 ![Screenshot](https://i.imgur.com/WUYjWS6.jpg)
 
-##Features
+## Features
 - Cross platform via Qt
 - Import text file
 - Included default text
@@ -11,7 +11,7 @@ Test your typing speed with this simple application
 - Error count
 - Time taken
 
-##Building
+## Building
 Typometer is built using the Qt 5 framework. 
 No platform specifc code is used, so you should be able to use any compilier and desktop platform supported by Qt 5.
 
