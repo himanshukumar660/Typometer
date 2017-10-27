@@ -1,9 +1,10 @@
 # Typometer
-Test your typing speed with this simple application
+Measure your typing speed with this simple application
 
 ![Screenshot](https://i.imgur.com/WUYjWS6.jpg)
 
 ## Features
+- Implemented Real Error Detection
 - Cross platform via Qt
 - Import text file
 - Included default text
