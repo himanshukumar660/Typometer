@@ -4,8 +4,7 @@
 
 TEMPLATE = app
 TARGET = TypeIt
-INCLUDEPATH += .
-QT += widgets
+QT += core gui widgets
 
 # Input
 HEADERS += about_me.h result.h type_it.h

@@ -9,39 +9,39 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1000</width>
-    <height>650</height>
+    <width>985</width>
+    <height>636</height>
    </rect>
   </property>
   <property name="sizePolicy">
-   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
     <horstretch>0</horstretch>
     <verstretch>0</verstretch>
    </sizepolicy>
   </property>
   <property name="minimumSize">
    <size>
-    <width>1000</width>
-    <height>650</height>
+    <width>0</width>
+    <height>0</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>1000</width>
-    <height>650</height>
+    <width>16777215</width>
+    <height>16777215</height>
    </size>
   </property>
   <property name="cursor">
    <cursorShape>ArrowCursor</cursorShape>
   </property>
   <property name="mouseTracking">
-   <bool>true</bool>
+   <bool>false</bool>
   </property>
   <property name="windowTitle">
    <string>Typometer</string>
   </property>
   <property name="windowOpacity">
-   <double>0.990000000000000</double>
+   <double>1.000000000000000</double>
   </property>
   <property name="layoutDirection">
    <enum>Qt::LeftToRight</enum>
@@ -50,275 +50,477 @@
    <string notr="true">background-image:url(://CSS-Background-Images-1-Red-and-Yellow.jpg)</string>
   </property>
   <property name="dockOptions">
-   <set>QMainWindow::AllowNestedDocks|QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks|QMainWindow::ForceTabbedDocks</set>
+   <set>QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks</set>
   </property>
   <widget class="QWidget" name="centralWidget">
    <property name="styleSheet">
     <string notr="true">background-image:url(://CSS-Background-Images-1-Red-and-Yellow.jpg)</string>
    </property>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>80</y>
-      <width>651</width>
-      <height>551</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout"/>
-     </item>
-     <item>
-      <widget class="QTextBrowser" name="textBrowser">
-       <property name="font">
-        <font>
-         <family>GibsonLight</family>
-         <pointsize>18</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="cursor" stdset="0">
-        <cursorShape>ForbiddenCursor</cursorShape>
-       </property>
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-image:url(:/light.jpg);
-background-color: rgb(187, 187, 187);
-
-padding-top:15;
-padding-bottom:15;
-padding-right:10;
-padding-left:10;</string>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
-       </property>
-       <property name="horizontalScrollBarPolicy">
-        <enum>Qt::ScrollBarAlwaysOff</enum>
-       </property>
-       <property name="acceptRichText">
-        <bool>false</bool>
-       </property>
-       <property name="textInteractionFlags">
-        <set>Qt::NoTextInteraction</set>
-       </property>
-       <property name="placeholderText">
-        <string>Your Uploaded File Appers Here...</string>
-       </property>
-       <property name="openLinks">
-        <bool>false</bool>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <spacer name="verticalSpacer">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Fixed</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>649</width>
-         <height>25</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item>
-      <widget class="QTextEdit" name="textEdit">
-       <property name="font">
-        <font>
-         <family>GibsonLight</family>
-         <pointsize>18</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="cursor" stdset="0">
-        <cursorShape>IBeamCursor</cursorShape>
-       </property>
-       <property name="mouseTracking">
-        <bool>true</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-image: url(:/light.jpg);
-background-color: rgb(187, 187, 187);
-padding-top:15;
-padding-bottom:15;
-padding-right:10;
-padding-left:10;</string>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
-       </property>
-       <property name="horizontalScrollBarPolicy">
-        <enum>Qt::ScrollBarAlwaysOff</enum>
-       </property>
-       <property name="undoRedoEnabled">
-        <bool>false</bool>
-       </property>
-       <property name="acceptRichText">
-        <bool>false</bool>
-       </property>
-       <property name="textInteractionFlags">
-        <set>Qt::TextEditable</set>
-       </property>
-       <property name="placeholderText">
-        <string>You Type Here...</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <spacer name="horizontalSpacer_2">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>40</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QPushButton" name="close">
-    <property name="geometry">
-     <rect>
-      <x>860</x>
-      <y>80</y>
-      <width>111</width>
-      <height>141</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">position:absolute;
+   <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="0,0,0">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <spacer name="verticalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+image: url(:/imageedit_4_4169169761.png);
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QPushButton" name="getRandom">
+          <property name="font">
+           <font>
+            <family>FreeMono</family>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>OpenHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(85, 0, 0);
+color:rgb(255, 94, 0);</string>
+          </property>
+          <property name="text">
+           <string>Default</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="upload">
+          <property name="font">
+           <font>
+            <family>FreeMono</family>
+            <pointsize>18</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>OpenHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(85, 0, 0);
+color:rgb(255, 94, 0);</string>
+          </property>
+          <property name="text">
+           <string>Upload</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="start">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>120</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>FreeMono</family>
+          <pointsize>18</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>OpenHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image:url(:/imageedit_1_8076061353.png);
+color:rgb(0, 0, 0);
+font: 75 18pt &quot;FreeMono&quot;;
+font-weight:bold;
+position:absolute;
 background:none;
 border:none;
-border-image:url(://logo.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>840</x>
-      <y>260</y>
-      <width>151</width>
-      <height>141</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_2">
-     <item>
-      <widget class="QPushButton" name="clear">
-       <property name="font">
-        <font>
-         <family>FreeMono</family>
-         <pointsize>18</pointsize>
-        </font>
-       </property>
-       <property name="cursor">
-        <cursorShape>OpenHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background:transparent;
-color:rgb(255, 94, 0);</string>
-       </property>
-       <property name="text">
-        <string>Clear</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="aboutMe">
-       <property name="font">
-        <font>
-         <family>FreeMono</family>
-         <pointsize>18</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="cursor">
-        <cursorShape>OpenHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background:transparent;
-color:rgb(255, 94, 0);</string>
-       </property>
-       <property name="text">
-        <string>About Me</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QPushButton" name="heading">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>0</y>
-      <width>551</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>FreeMono</family>
-      <pointsize>40</pointsize>
-      <weight>75</weight>
-      <italic>false</italic>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font:  40pt &quot;FreeMono&quot;;
+
+</string>
+        </property>
+        <property name="text">
+         <string>START</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="heading">
+        <property name="font">
+         <font>
+          <family>FreeMono</family>
+          <pointsize>40</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font:  40pt &quot;FreeMono&quot;;
 color:rgb(255,94, 0);
 border:none;
 font-weight:bold;</string>
-    </property>
-    <property name="text">
-     <string>TYPOMETER</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="start">
-    <property name="geometry">
-     <rect>
-      <x>11</x>
-      <y>470</y>
-      <width>141</width>
-      <height>141</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>FreeMono</family>
-      <pointsize>18</pointsize>
-      <weight>75</weight>
-      <italic>false</italic>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="cursor">
-     <cursorShape>OpenHandCursor</cursorShape>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-image:url(:/imageedit_1_8076061353.png);
+        </property>
+        <property name="text">
+         <string>TYPOMETER</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextBrowser" name="textBrowser">
+        <property name="font">
+         <font>
+          <family>GibsonLight</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>ForbiddenCursor</cursorShape>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-image:url(:/light.jpg);
+background-color: rgb(187, 187, 187);
+
+padding-top:15;
+padding-bottom:15;
+padding-right:10;
+padding-left:10;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="acceptRichText">
+         <bool>false</bool>
+        </property>
+        <property name="textInteractionFlags">
+         <set>Qt::NoTextInteraction</set>
+        </property>
+        <property name="placeholderText">
+         <string>Your Uploaded File Appers Here...</string>
+        </property>
+        <property name="openLinks">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>649</width>
+          <height>25</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="font">
+         <font>
+          <family>GibsonLight</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="cursor" stdset="0">
+         <cursorShape>IBeamCursor</cursorShape>
+        </property>
+        <property name="mouseTracking">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-image: url(:/light.jpg);
+background-color: rgb(187, 187, 187);
+padding-top:15;
+padding-bottom:15;
+padding-right:10;
+padding-left:10;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="undoRedoEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="acceptRichText">
+         <bool>false</bool>
+        </property>
+        <property name="textInteractionFlags">
+         <set>Qt::TextEditable</set>
+        </property>
+        <property name="placeholderText">
+         <string>You Type Here...</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <spacer name="verticalSpacer_7">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">position:absolute;
+background:none;
+border:none;
+border-image:url(://logo.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_6">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QPushButton" name="clear">
+          <property name="font">
+           <font>
+            <family>FreeMono</family>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>OpenHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(85, 0, 0);
+color:rgb(255, 94, 0);</string>
+          </property>
+          <property name="text">
+           <string>Clear</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="aboutMe">
+          <property name="font">
+           <font>
+            <family>FreeMono</family>
+            <pointsize>18</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>OpenHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(85, 0, 0);
+color:rgb(255, 94, 0);</string>
+          </property>
+          <property name="text">
+           <string>About Me</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_9">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="giveUp">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>120</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>FreeMono</family>
+          <pointsize>18</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>OpenHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image:url(:/stop-icon.png);
 color:rgb(0, 0, 0);
 font: 75 18pt &quot;FreeMono&quot;;
 font-weight:bold;
@@ -327,137 +529,34 @@ background:none;
 border:none;
 
 </string>
-    </property>
-    <property name="text">
-     <string>START</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="logo">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>80</y>
-      <width>111</width>
-      <height>141</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">position:absolute;
-background:none;
-border:none;
-border-image:url(:/imageedit_4_4169169761.png);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="giveUp">
-    <property name="geometry">
-     <rect>
-      <x>840</x>
-      <y>480</y>
-      <width>141</width>
-      <height>141</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>FreeMono</family>
-      <pointsize>18</pointsize>
-      <weight>75</weight>
-      <italic>false</italic>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="cursor">
-     <cursorShape>OpenHandCursor</cursorShape>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-image:url(:/stop-icon.png);
-color:rgb(0, 0, 0);
-font: 75 18pt &quot;FreeMono&quot;;
-font-weight:bold;
-position:absolute;
-background:none;
-border:none;
-
-</string>
-    </property>
-    <property name="text">
-     <string>STOP</string>
-    </property>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>260</y>
-      <width>151</width>
-      <height>141</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_3">
-     <item>
-      <widget class="QPushButton" name="getRandom">
-       <property name="font">
-        <font>
-         <family>FreeMono</family>
-         <pointsize>18</pointsize>
-        </font>
-       </property>
-       <property name="cursor">
-        <cursorShape>OpenHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:rgb(255, 94, 0);
-background:transparent;
-</string>
-       </property>
-       <property name="text">
-        <string>Default</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="upload">
-       <property name="font">
-        <font>
-         <family>FreeMono</family>
-         <pointsize>18</pointsize>
-         <weight>50</weight>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="cursor">
-        <cursorShape>OpenHandCursor</cursorShape>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color:rgb(255, 94, 0);
-background:transparent;
-</string>
-       </property>
-       <property name="text">
-        <string>Upload</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <zorder>layoutWidget</zorder>
-   <zorder>layoutWidget</zorder>
-   <zorder>close</zorder>
-   <zorder>layoutWidget</zorder>
-   <zorder>heading</zorder>
-   <zorder>start</zorder>
-   <zorder>logo</zorder>
-   <zorder>giveUp</zorder>
+        </property>
+        <property name="text">
+         <string>STOP</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_8">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <tabstops>
   <tabstop>textEdit</tabstop>
   <tabstop>start</tabstop>
-  <tabstop>close</tabstop>
   <tabstop>aboutMe</tabstop>
   <tabstop>clear</tabstop>
   <tabstop>heading</tabstop>
