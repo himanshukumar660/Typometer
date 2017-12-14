@@ -11,6 +11,8 @@ Measure your typing speed with this simple application
 - Words per min
 - Error count
 - Time taken
+- Detection of typoos( the text color will get changed if it finds any typoos) 
+- Post dot correction( It will ensure that the next alphabet after a full stop is capital)
 
 ## Building
 Typometer is built using the Qt 5 framework. 
