@@ -1,0 +1,15 @@
+#include <iostream>
+#include <termcolor.hpp>
+using namespace std; 
+
+int main(int,char**)
+{   int c; 
+    cout<<" enter text, enter fullstop(.) to exit";
+    do
+    { c=getchar();
+      putchar(c);
+      } while(c!='.');
+   std::cout<< termcolor::black<<c<< std::endl; /*this will convert the completed text to black(darken it)so
+                                                     that the user can focus ahead */
+   return 0; 
+ } 
